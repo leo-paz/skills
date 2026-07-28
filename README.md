@@ -1,22 +1,27 @@
-# Write Goal Prompts
+# Skills
 
-An agent skill for creating, rewriting, and reviewing durable Codex `/goal` prompts for long-running work.
+A public collection of reusable agent skills. Each skill lives in its own directory under `skills/` and can be installed with the Skills CLI.
 
-## Install
+## Installation
 
-Install it with the Skills CLI:
+Install every skill in this repository:
+
+```sh
+npx skills add leo-paz/skills --agent codex --yes
+```
+
+Install a specific skill:
 
 ```sh
 npx skills add leo-paz/skills --skill write-goal-prompts --agent codex --yes
 ```
 
-The skill helps shape a long-running objective around measurable stopping conditions, scoped checkpoints, repeatable validation, progress reporting, and explicit pause rules.
+## Available Skills
 
-## Contents
-
-- `skills/write-goal-prompts/SKILL.md`: the skill instructions
-- `skills/write-goal-prompts/agents/openai.yaml`: Codex display metadata
+| Skill | Description |
+| --- | --- |
+| `write-goal-prompts` | Create, rewrite, and review durable Codex `/goal` prompts for long-running work. |
 
 ## License
 
-MIT
+Available under the [MIT License](LICENSE).
