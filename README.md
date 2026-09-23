@@ -21,6 +21,7 @@ npx skills add leo-paz/skills --skill write-goal-prompts --agent codex --yes
 | Skill | Description |
 | --- | --- |
 | `write-goal-prompts` | Create, rewrite, and review durable Codex `/goal` prompts for long-running work. |
+| `recover-desktop` | Diagnose and recover Windows Desktop and Ubuntu WSL access from the MacBook. |
 
 ## License
 
