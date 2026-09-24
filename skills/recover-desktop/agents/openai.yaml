@@ -1,6 +1,0 @@
-interface:
-  display_name: "Recover Desktop"
-  short_description: "Manually diagnose and recover Desktop WSL access"
-  default_prompt: "Use $recover-desktop to diagnose and recover Desktop access using the least disruptive proven repair."
-policy:
-  allow_implicit_invocation: false

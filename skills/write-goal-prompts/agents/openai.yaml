@@ -1,4 +1,0 @@
-interface:
-  display_name: "Write Goal Prompts"
-  short_description: "Draft durable Codex /goal prompts"
-  default_prompt: "Use $write-goal-prompts to turn this task into a durable Codex /goal prompt."
